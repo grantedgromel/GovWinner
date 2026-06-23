@@ -1,0 +1,15 @@
+{
+  "_comment": "Machine-readable buy-box. Mirrors docs/buy-box.md. Edit before bidding.",
+  "max_capital_per_deal": 2000,
+  "margin_multiple": 1.7,
+  "min_net_profit": 75,
+  "categories": ["tools", "industrial", "electronics", "equipment"],
+  "allowed_states": [],
+  "can_handle_base_pickup": true,
+  "max_logistics_cost": 400,
+  "max_bid_count": 8,
+  "min_removal_days": 3,
+  "allow_as_is": true,
+  "excluded_keywords": ["hazmat", "ammunition", "firearm", "asbestos"],
+  "min_current_price": 20
+}
